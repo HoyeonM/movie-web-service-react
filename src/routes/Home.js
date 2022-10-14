@@ -1,5 +1,7 @@
 import Movie from "../components/Movie";
 import {useState, useEffect} from "react";
+import styles from "./Home.module.css";
+import titleImage from "./pngwing.com (4).png";
 
 function Home(){ //localhost:3000
   const [loading, setLoading]= useState(true);
@@ -19,11 +21,17 @@ function Home(){ //localhost:3000
   console.log(movies);
     
   return (
-  <div>
+  <div className={styles.container}>
     {loading ? (
-      <h1>Loading...</h1>
+      <h1 className={styles.loading}>Loading...</h1>
     ):(
       <div>
+        <div className={styles.heading}>
+        <h1 className={styles.title}>MOVIE PLUS+</h1>
+        <img style={{width: 70}} src={titleImage}/>
+        </div> 
+
+       <div className={styles.movies}>
         {movies.map((movie) => (
           <Movie 
           key={movie.id}
@@ -33,6 +41,7 @@ function Home(){ //localhost:3000
           summary={movie.summary} 
           genres={movie.genres} /> //sending them as props to Movie component
         ))}
+      </div>
       </div>
     )}
   </div>

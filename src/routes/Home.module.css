@@ -1,0 +1,30 @@
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.loading {
+    font-family: 'Londrina Outline';
+    font-size: 100px;
+    margin-top: 150px;
+    color: grey;
+}
+.title {
+    font-family: 'Londrina Outline';
+    margin-left: 40%;
+
+}
+
+.heading {
+    display: flex;
+    padding-top: 50px;
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(400px, 1fr));
+    padding: 50px;
+    width: 80%;
+    padding-top: 40px;
+}
