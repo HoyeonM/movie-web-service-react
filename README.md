@@ -3,3 +3,7 @@
 ## **View in [Github Page](https://HoyeonM.github.io/movie-web-service-react)**
 <br>
 Adding CSS right now!
+
+
+### Skill
+- React, HTML, CSS , Git
