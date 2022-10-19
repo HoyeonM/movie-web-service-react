@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.js": "/movie-web-service-react/static/js/main.7cc640dc.js",
+    "main.css": "/movie-web-service-react/static/css/main.7c261c1a.css",
+    "main.js": "/movie-web-service-react/static/js/main.54c75f82.js",
+    "static/media/pngwing.com (4).png": "/movie-web-service-react/static/media/pngwing.com (4).8ee4212606994ac0692d.png",
     "index.html": "/movie-web-service-react/index.html",
-    "main.7cc640dc.js.map": "/movie-web-service-react/static/js/main.7cc640dc.js.map"
+    "main.7c261c1a.css.map": "/movie-web-service-react/static/css/main.7c261c1a.css.map",
+    "main.54c75f82.js.map": "/movie-web-service-react/static/js/main.54c75f82.js.map"
   },
   "entrypoints": [
-    "static/js/main.7cc640dc.js"
+    "static/css/main.7c261c1a.css",
+    "static/js/main.54c75f82.js"
   ]
 }
